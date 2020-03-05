@@ -3,10 +3,8 @@
 ## Major Features and Improvements
 
 ## Bug fixes and other changes
-*   Fix the behavior of Trainer Tensorboard visualization when caching is used.
 
 ### Deprecations
-*   Model Validator (its functionality is now provided by the Evaluator).
 
 ## Breaking changes
 
@@ -35,7 +33,6 @@
 *   Added a Chicago Taxi example with native Keras.
 *   Updated TFLite converter to work with TF2.
 *   Enabled filtering by artifact producer and output key in ResolverNode.
-*   Changed Iris model_to_estimator e2e example to use generic Trainer.
 
 ## Bug fixes and other changes
 *   Added --skaffold_cmd flag when updating a pipeline for kubeflow in CLI.

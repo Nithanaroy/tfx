@@ -120,9 +120,10 @@ in the dataset.
 
 * [**Trainer**](trainer.md) trains the model.
 
-* [**Evaluator**](evaluator.md) performs deep analysis of the training results
-and helps you validate your exported models, ensuring that they are
-"good enough" to be pushed to production.
+* [**Evaluator**](evaluator.md) performs deep analysis of the training results.
+
+* [**ModelValidator**](modelval.md) helps you validate your exported models, ensuring that
+they are "good enough" to be pushed to production.
 
 * [**Pusher**](pusher.md) deploys the model on a serving infrastructure.
 
@@ -577,8 +578,8 @@ Kubeflow deployment guideline that guide through the options for
 
 ### Configure and run TFX pipeline
 
-Please follow the
-[TFX on Cloud AI Platform Pipeline tutorial](https://www.tensorflow.org/tfx/tutorials/tfx/cloud-ai-platform-pipelines)
+Please follow the Kubeflow Pipelines
+[instructions](https://github.com/kubeflow/pipelines/tree/master/samples/core/tfx-oss)
 to run the TFX example pipeline on Kubeflow. TFX components have been
 containerized to compose the Kubeflow pipeline and the sample illustrates the
 ability to configure the pipeline to read large public dataset and execute

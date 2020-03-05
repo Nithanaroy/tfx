@@ -253,13 +253,9 @@ class SchemaGenSpec(ComponentSpec):
 class StatisticsGenSpec(ComponentSpec):
   """StatisticsGen component spec."""
 
-  PARAMETERS = {
-      'stats_options_json':
-          ExecutionParameter(type=(str, Text), optional=True),
-  }
+  PARAMETERS = {}
   INPUTS = {
       'examples': ChannelParameter(type=standard_artifacts.Examples),
-      'schema': ChannelParameter(type=standard_artifacts.Schema, optional=True),
   }
   OUTPUTS = {
       'statistics': ChannelParameter(type=standard_artifacts.ExampleStatistics),

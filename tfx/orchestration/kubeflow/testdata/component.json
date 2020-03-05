@@ -2,9 +2,7 @@
   "__class__": "NodeWrapper",
   "__module__": "tfx.orchestration.kubeflow.node_wrapper",
   "__tfx_object_type__": "jsonable",
-  "_exec_properties": {
-    "stats_options_json": null
-  },
+  "_exec_properties": {},
   "_id": "StatisticsGen.foo",
   "_inputs": {
     "__class__": "_PropertyDictWrapper",
